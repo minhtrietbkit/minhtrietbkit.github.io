@@ -243,10 +243,9 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll
-  jekyll-feed
-  jekyll-seo-tag
-  jekyll-sitemap
+  jekyll-feed (~> 0.6)
+  minima (~> 2.0)
+  tzinfo-data
 
 BUNDLED WITH
    2.0.1
