@@ -1,0 +1,11 @@
+- name: About Me
+  url: /
+
+- name: Linux
+  url: /linux.html
+
+- name: Networking
+  url: /networking.html
+
+- name: DevOps
+  url: /devops.html

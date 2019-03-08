@@ -1,0 +1,9 @@
+<section class="page-header">
+  <h1 class="project-name">{{ site.title }}</h1>
+  <h2 class="project-tagline">{{ site.tagline }}</h2>
+  {% for subpage in site.data.subpage %}
+     <a href="{{subpage.url}}" class="btn">
+      {{ subpage.name }}
+    </a>
+{% endfor %}
+</section>
