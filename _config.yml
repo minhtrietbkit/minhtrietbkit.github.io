@@ -1,7 +1,7 @@
 # Setup
 title:        Minh Triet Tran's Home
 tagline:      Linux  - Devops - Networking
-baseurl:      "https://minhtrietbkit.github.io/"
+baseurl:      ""
 paginate:     1
 locale:       "en"
 
