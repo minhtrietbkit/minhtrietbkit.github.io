@@ -1,6 +1,6 @@
 ---
 title:  "Cryptographic Hash VS Encryption"
-date:   2019-03-02 20:18:19 -0500
+date:   2019-03-08
 layout: default
 category: network
 ---
