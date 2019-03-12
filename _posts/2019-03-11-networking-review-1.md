@@ -1,9 +1,12 @@
 ---
-title:  "Networking Review 1"
+title:  "Networking Review One"
 date:   2019-03-11
-layout: default
+layout: post
 category: network
 ---
+Networking is complicated! This **Networking Review** series is my attempt to review and demystify some of its concepts.
+
+The content of this series is mostly based on [Computer Networking: A Top-Down Approach (6th Edition)](https://www.amazon.com/Computer-Networking-Top-Down-Approach-6th/dp/0132856204).
 
 ## High Level
 
@@ -21,7 +24,7 @@ How is this `routing table` get set? It is done by `routing protocols`.
 
 ## OSI Model (Top Down)
 
-1. [Application](/network/2019/03/12/application-layer-1.html)
+1. [Application](/network/2019/03/12/application-layer.html)
 2. Presentation
 3. Session
 4. Transport

@@ -1,7 +1,7 @@
 ---
-title:  "Application Layer 1"
+title:  "Application Layer"
 date:   2019-03-12
-layout: default
+layout: post
 category: network
 ---
 
@@ -11,7 +11,7 @@ Sits at the top of the `OSI` model, the `Application Layer` provides services fo
 
 ## HTTP
 
-`HTTP` is a **stateless** protocol which uses `TCP` (instead of `UDP`) from the `Transport Layer`. From the developer's point of view, an application can use `TCP` via `TCPSocket Interface` and `UDP` via `UDPSocket Interface` [see more](https://www.w3.org/2012/sysapps/tcp-udp-sockets/#interface-tcpsocket).
+`HTTP` is a **stateless** protocol which uses `TCP` (instead of `UDP`) from the `Transport Layer`. From the developer's point of view, an application can use `TCP` via `TCPSocket Interface` and `UDP` via `UDPSocket Interface`, [more about that here](https://www.w3.org/2012/sysapps/tcp-udp-sockets/#interface-tcpsocket).
 
 `HTTP` is defined in [RFC 1945] and [RFC 2616]. The requests are in plain text. You can try it with `telnet`.
 

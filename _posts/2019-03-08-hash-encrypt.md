@@ -1,12 +1,9 @@
 ---
 title:  "Cryptographic Hash VS Encryption"
 date:   2019-03-08
-layout: default
+layout: post
 category: network
 ---
-
-# Cryptographic Hash VS Encryption
-
 Recently, I had to dig up my knowledge about `Public Key Encryption`. I thought it was a chance to also take a look at `Cryptographic Hash`.
 
 This post is inspired by this [WHAT IS THE DIFFERENCE BETWEEN HASHING AND ENCRYPTING](https://www.securityinnovationeurope.com/blog/page/whats-the-difference-between-hashing-and-encrypting). 
