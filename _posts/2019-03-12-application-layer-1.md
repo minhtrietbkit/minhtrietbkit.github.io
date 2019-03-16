@@ -70,3 +70,6 @@ Just like HTTP, the protocol is composed of 7-bit ASCII-encoded commands. You ca
 
 1. Sender's agent -> Sender's mail server: **SMTP**
 2. Reciever's mail server -> Receiver's agent: **POP3** ([RFC 1939]), **IMAP** ([RFC 3501] or HTTP
+
+## Domain Name System
+See more here [Domain Name System (DNS) Part 1](/network/2019/03/15/dns-1.html)
