@@ -74,5 +74,5 @@ Just like HTTP, the protocol is composed of 7-bit ASCII-encoded commands. You ca
 ## Domain Name System
 See more here [Domain Name System (DNS) Part 1](/network/2019/03/15/dns-1.html)
 
-## BitTorrnet
+## BitTorrent
 See more here [BitTorrent Protocol](/network/2019/03/20/bittorrent.html)
