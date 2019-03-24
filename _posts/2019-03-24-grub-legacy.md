@@ -4,7 +4,7 @@ date:   2019-03-24
 layout: post
 category: linux
 ---
-Recently, for the purpose of preparing for the **LPIC 1** exam, I had to dig into something I wanted to touch: `grub`.
+Recently, while preparing for the **LPIC 1** exam, I had to dig into something I've never wanted to touch: `grub`.
 
 Now that I have grasped a fair amount of it, I hope this little blog can be of some help to others. 
 
