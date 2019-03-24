@@ -16,6 +16,8 @@ This post assumes basic understanding of:
 1. Boot loaders in general
 2. Hard disk concepts such as **partition**, **filesystem**, **partition table**, **Master Boot Record**, **Partition Boot Record**...
 
+During learning about `grub legacy` and composing this blog, I found materials at [GRUB bootloader - Full tutorial](https://www.dedoimedo.com/computers/grub.html) and [GNU GRUB Manual 0.97](https://www.gnu.org/software/grub/manual/legacy/grub.html) specially helpful.
+
 # How it works
 
 1. When control is passed to the grub bootloader, it reads the configuration from `/boot/grub/menu.ls`
