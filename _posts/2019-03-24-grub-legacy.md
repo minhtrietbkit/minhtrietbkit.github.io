@@ -25,7 +25,7 @@ This post assumes basic understanding of:
 
 # Install Grub Legacy onto an MBR-formatted hard disk
 
-> A Little reminder of BIOS system boot up process
+## A Little reminder of BIOS system boot up process
 
 1. After BIOS does its work, control is passed to the **first stage bootloader** in the **MBR** of the disk which is **marked bootable**.
 2. This first stage bootloader then loads the **second stage bootloader** (we'll skip the **1.5 stage bootloader**).
@@ -35,7 +35,7 @@ In the case of grub legacy:
 1. The second stage bootloader then loads the grub configuration file
 2. The configuration file is at `/boot/grub/menu.ls`
 
-> What does installing grub onto a hard disk mean?
+## What does installing grub onto a hard disk mean?
 
 It means installing/copying the first stage boot loader onto the disk's MBR and the second stage bootloader onto the hard disk.
 
