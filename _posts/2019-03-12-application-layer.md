@@ -1,15 +1,15 @@
 ---
-title:  "Application Layer One"
+title:  "Application Layer"
 date:   2019-03-12
 layout: post
 category: network
 ---
 
-## High Level
+# High Level
 
 Sits at the top of the **OSI** model, the **Application Layer** provides services for applications via the **socket** API.
 
-## HTTP
+# HTTP
 
 **HTTP** is a **stateless** protocol which uses **TCP** (instead of **UDP**) in the **Transport Layer**. From the developer's point of view, an application can use TCP via **TCPSocket Interface** and UDP via **UDPSocket Interface**, [more about that here](https://www.w3.org/2012/sysapps/tcp-udp-sockets/#interface-tcpsocket).
 
@@ -23,11 +23,11 @@ GET /~ross/ HTTP/1.1 Host: cis.poly.edu
 
 Note that HTTP works in a **pull** protocol. This means the machine that receives data initiates TCP connection.  
 
-## Cookies
+# Cookies
 
 **Cookies** is a feature to help make HTTP **stateful**. It is described in several RFCs. The latest as of this writing is [RFC 6265]. Cookies works because browsers/agents actually support it. If you try using an agent that does not support it, it just won't work.
 
-## Web Cache
+# Web Cache
 
 > A Web cache—also called a proxy server—is a network entity that satisfies HTTP requests on the behalf of an origin Web server.
 
@@ -39,7 +39,7 @@ In a typical settings, HTTP requests from machines in a LAN network are routed t
 
 The answer is that whenever a web cache fetches an object from web servers, it stores a copy with the fetching time. Web cache typically sends a **Conditional GET** to web server with Header `if-modified-since:<time>`, asking if the object has been modified since the last time it was fetched. Response code `304` means the object has not been modified since.
 
-## FTP
+# FTP
 
 **File Transfer Protocol** is stateful and also uses TCP. 
 
@@ -49,7 +49,7 @@ It uses two TCP connections over:
 
 The protocol is defined in [RFC 959]
 
-## Electronic mail
+# Electronic mail
 
 A typical setting of how electronic mail works:
 
@@ -59,20 +59,20 @@ Sender's mail agent --> mail server A -> mail server B -> Receiver's mail agent
 
 Mail agent could be a mail application (iOS Gmail app). 
 
-### Connection between mail servers:
+## Connection between mail servers:
 The protocol between mail servers B is **SMTP**, defined in [RFC 5321]. The sending server establishes TCP connection to port 25 of receiving server.
 
 As compared to HTTP, **SMTP** is a **push** protocol in the sense that the machine sending data initiates TCP connection.
 
 Just like HTTP, the protocol is composed of 7-bit ASCII-encoded commands. You can try sending these commands by initiating a TCP connection to port 25 of an email server with `telnet`.
 
-### Connection between agent and its respective mail server:
+## Connection between agent and its respective mail server:
 
 1. Sender's agent -> Sender's mail server: **SMTP**
 2. Reciever's mail server -> Receiver's agent: **POP3** ([RFC 1939]), **IMAP** ([RFC 3501] or HTTP
 
-## Domain Name System
+# Domain Name System
 See more here [Domain Name System (DNS) Part 1](/network/2019/03/15/dns-1.html)
 
-## BitTorrent
+# BitTorrent
 See more here [BitTorrent Protocol](/network/2019/03/20/bittorrent.html)

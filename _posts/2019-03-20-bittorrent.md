@@ -5,10 +5,10 @@ layout: post
 category: network
 ---
 
-## Definition
+# Definition
 > BitTorrent is a popular P2P protocol for file distribution ~ {{site.data.ref.topdown}}
 
-## Terminologies
+# Terminologies
 
 Term | Meaning
 ------ | ------
@@ -17,7 +17,7 @@ chunk | smallest unit of a file that is transfered between peers
 tracker | a node in a torrent which keeps track of peers that are participating in the torrent
 tit-for-tat | the incentive mechanism to decide which peer should get chunks
 
-## How it works
+# How it works
 
 Consider an example: Alice joins a torrent to download a file. The explanation is an interpretation of the same example in {{site.data.ref.topdown}}.
 

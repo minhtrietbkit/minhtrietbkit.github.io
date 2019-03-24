@@ -1,11 +1,11 @@
 ---
-title:  "Transport Layer One"
+title:  "Transport Layer"
 date:   2019-03-23
 layout: post
 category: network
 ---
 
-## High Level
+# High Level
 
 Transport layer sits on top of the **Network Layer** providing logical communication between application processes. Its packets are called **segment**s.
 
@@ -15,11 +15,11 @@ The two main protocols in this layer are **Transmission Control Protocol** (TCP)
 
 Transport layer adds reliability to the **unreliable service** provided by the **IP** protocol at the Network layer.
 
-## TCP vs UDP:
+# TCP vs UDP:
 
 **Port number** is a concept in Transport layer. Lower layer doesn't understand ports. A port is a 16-bit non-negative number. The list of well-known ports (0-1023) is defined in [RFC 3232].
     
-### TCP
+## TCP
 
 1. TCP socket is identified by a four-tuple: destination/source address and destination/source port.
 2. TCP uses two sockets:
@@ -28,7 +28,7 @@ Transport layer adds reliability to the **unreliable service** provided by the *
 3. TCP requires *3-way handshake* before real data can be exchanged.
 4. TCP segment's header has 20 bytes.
 
-### UDP
+## UDP
 1. UDP socket is identified by a two-tuple: destination address and destination port.
 2. UDP uses one socket
 3. Data can be exchanged directly without initial process.
