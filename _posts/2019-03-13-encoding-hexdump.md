@@ -26,7 +26,7 @@ This is when `Unicode` comes into play.
 7. Unicode is not an encoding but a standard, mapping of a character to a code point. 
 
 > `Unicode` solves these problems:
-	> 1. If everyone agrees on the mapping of character-code point, everybody understands that `U+0048 U+0065 U+006C U+006C U+006F` is `Hello`, no matter where they come from.
+  > 1. If everyone agrees on the mapping of character-code point, everybody understands that `U+0048 U+0065 U+006C U+006C U+006F` is `Hello`, no matter where they come from.
 	> 1. You just invent a new language? No problem, let's just add it to the `Unicode` standard since it has no upper limit.
 
 But how do `Unicode` characters stored in the computer? That's handled by `Encoding`.
