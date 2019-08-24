@@ -4,7 +4,9 @@ Hi me in the future! You're reading this probably because you have been busy ~wa
 
 Here's the quick recap:
 
-1. Create new topic: add that in new topic `/_data/subpage.yml`
+1. Create new topic: 
+    1. Add that in new topic `/_data/subpage.yml`
+    1. Make a copy of a topic page in `/` and modify appropriately
 1. Add new reference: add that in `/_data/ref.yml`
 1. Add new entry: 
     1. Make a copy of a post in `/_posts/`
