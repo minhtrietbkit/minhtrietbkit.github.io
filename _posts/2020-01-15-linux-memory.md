@@ -44,11 +44,3 @@ This leads to 2 other questions:
 3. Is memory actually seperated into blocks of 8 bits (or 1 byte)?
 
 I don't know the answers yet but hopefully I'll find out later.
-
-Alright, now what's with `kernel space` and `userspace`.
-
-If you've used linux, you've probably heard of these terms or their equivalents. Today, I learn of one way to interpret what they are.
-
-The address space is devided into kernel space and userspace. The ratio depends on the `instruction set architecture`.
-
-From a process's point of view, it owns the whole userspace of the virtual address space. In reality, though, it
