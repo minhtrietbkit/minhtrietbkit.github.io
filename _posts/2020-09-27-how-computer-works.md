@@ -28,7 +28,7 @@ When you press the Up key on the keyboard, the keyboard sends electrical pulses 
 
 What you see on the screen is just how the monitor (the hardware) was manufactured to react to the pulses (turning on red light here, blue light there...).
 
-![How monitor may have reacted to electrical pulses](../assets/how-computer-works/monitor.png) ~ [Khan Academy](https://www.khanacademy.org/computing/computers-and-internet/xcae6f4a7ff015e7d:computers/xcae6f4a7ff015e7d:computer-components/v/khan-academy-and-codeorg-cpu-memory-input-output)
+![How monitor may have reacted to electrical pulses](/assets/how-computer-works/monitor.png) ~ [Khan Academy](https://www.khanacademy.org/computing/computers-and-internet/xcae6f4a7ff015e7d:computers/xcae6f4a7ff015e7d:computer-components/v/khan-academy-and-codeorg-cpu-memory-input-output)
 
 ## Electrical Pulses to Computer Game
 
