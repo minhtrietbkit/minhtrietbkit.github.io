@@ -22,7 +22,7 @@ If we want to visit a place and are given a map. If the map is wrong, no matter 
 
 # Personal Thought
 
-1. This sounds a lot like what the book [You Are What You Believe](https://www.amazon.com/You-Are-What-Believe-Transform/dp/1626566666) in that it points out our behavior/attitude towards life is based on our experience, our own len through which we perceive/interpret/understand life. And often times, we do not aware such a len exists that is governing our actions. Additionally, other people have their own lens.
+1. This sounds a lot like [You Are What You Believe](https://www.amazon.com/You-Are-What-Believe-Transform/dp/1626566666) in that it points out our behavior/attitude towards life is based on our experience - our own len through which we perceive/interpret/understand life. And often times, we do not aware such a len exists and that it is governing our actions. Additionally, other people have their own lens.
 2. The book encourages changes from the inside-out; do not cut corners but try to understand the problem in a deeper, higher level... Really, doesn't sound new to me. I'm expecting how Stephen clarify what he means by this in later chapters.
 3. Though I have never finished "How to Win Friends and Influence People", it's funny how this introduction seems like an anti-thesis to the ever famous book by Dale Carnegie. I think some lessons in the "How to" book are what Stephen refers to as **techniques** - so-called "Band-Aids" that only provides short-term solution.
 4. Favorite quote:
