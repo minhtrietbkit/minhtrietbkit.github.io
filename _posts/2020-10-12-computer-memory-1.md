@@ -148,7 +148,7 @@ To create the virtual/physical memory illusion, the MMU replaces the base regist
 The relocation register keeps an offset into the physical memory. That offset denotes the start of the virtual memory of a process on the physical memory.
 
 Here's how the whole thing look like with the limit register.
-![Putting it all together](/assets/computer-memory-1/relocation-register.png)
+![Putting it all together](/assets/computer-memory-1/relocation-and-limit-register.png)
 
 ## A Programmer refers to the Process' Memory Space in terms of Segments
 
