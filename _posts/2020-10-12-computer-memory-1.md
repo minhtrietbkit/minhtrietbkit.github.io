@@ -5,9 +5,9 @@ layout: post
 category: linux
 ---
 
-Following summary is extracted from Chapter 1 of [BPF Performance Tools: Linux System and Application Observability](http://www.brendangregg.com/bpf-performance-tools-book.html).
+Following summarizes my understanding of computer memory from various resources.
 
-**NOTE**: Most of this summary are full quotes from the book; all diagrams are copied from the book.
+**NOTE**: Many of this summary are full quotes from books; all diagrams are copied from books.
 
 # Review
 
@@ -93,7 +93,7 @@ yasm -g dwarf2 -f elf64 example.asm -l example.lst
 
 And this is the list file:
 
-![sample list file](assets/computer-memory-1/sample-list-file.png)
+![sample list file](/assets/computer-memory-1/sample-list-file.png)
 
 This is how to interpret this each line in this file. Following is a line in the `data` section:
 
@@ -143,12 +143,12 @@ Remember our discussion on how hardware supports prevention memory protection be
 
 To create the virtual/physical memory illusion, the MMU replaces the base register with __relocation register__ which handles the translation from virtual address to physical address (the limit register is still kept but not shown in the picture below).
 
-[!Relocation Register - the magician](assets/computer-memory-1/relocation-register.png)
+[!Relocation Register - the magician](/assets/computer-memory-1/relocation-register.png)
 
 The relocation register keeps an offset into the physical memory. That offset denotes the start of the virtual memory of a process on the physical memory.
 
 Here's how the whole thing look like with the limit register.
-[!Putting it all together](assets/computer-memory-1/relocation-register.png)
+[!Putting it all together](/assets/computer-memory-1/relocation-register.png)
 
 ## A Programmer refers to the Process' Memory Space in terms of Segments
 
@@ -169,7 +169,7 @@ Here's how the whole thing look like with the limit register.
 
 Hardware supports for segmentation by providing a mechanism called __Segment Table__ which contains a pair of __segment base__ and __segment limit__ (essentially a base and limit register) for each segment.
 
-[!Segmentation at work](assets/computer-memory-1/segmentation.png)
+[!Segmentation at work](/assets/computer-memory-1/segmentation.png)
 
 The book Operating System Concepts 9th Edition, after discussing on Segmentation based on the premise that this technique was born because programmers typically refer to program in terms of segments and that the compiler will create separate segments of a program as shown above, it introduces __Paging__ by: 
 
@@ -195,7 +195,7 @@ Paging implementation:
 
 > When a process is to be executed, its pages are loaded into any available memory frames from their source (a file system or the backing store).
 
-[!Segmentation and Paging together](assets/computer-memory-1/segmentation-paging.png)
+[!Segmentation and Paging together](/assets/computer-memory-1/segmentation-paging.png)
 
 > Memory management in IA-32 systems is divided into two components—segmentation and paging—and works as follows: The CPU generates logical addresses, which are given to the segmentation unit. The segmentation unit produces a linear address for each logical address. The linear address is then given to the paging unit, which in turn generates the physical address in main memory. Thus, the segmentation and paging units form the equivalent of the memory-management unit (MMU).
 
