@@ -1,9 +1,11 @@
 ---
-title: "Git Tip - Part 1"
+title: "Git Tip"
 date: 2019-12-13
 layout: post
 category: tipsntricks
 ---
+
+**Last Updated on** Nov 6th 2020
 
 ## git log
 
@@ -20,6 +22,7 @@ category: tipsntricks
 | commit --amend       | modify current commit           |
 | reset HEAD \<file\>  | unstage file, keep modification |
 | checkout -- \<file\> | unmodify unstaged files         |
+| git add -U  | stage all modified/deleted files, don't touch untracked files at all |
 
 ## Branching
 
