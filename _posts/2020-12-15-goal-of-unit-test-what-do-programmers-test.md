@@ -5,21 +5,29 @@ layout: post
 category: devops
 ---
 
-**NOTE**: Most of this summary are full quotes from the book; all diagrams are copied from the book.
+**NOTE**: Most of this summary are full quotes from the books [xUnit Test Patterns: Refactoring Test Code](https://www.amazon.com/xUnit-Test-Patterns-Refactoring-Code/dp/0131495054) and [Agile Testing: A Practical Guide for Testers and Agile Teams](https://www.amazon.com/Agile-Testing-Practical-Guide-Testers/dp/0321534468); all diagrams are copied from the book.
+
+# What is Unit Test?
+
+> Unit tests verify the behavior of a single class or method that is a consequence of a design decision. This behavior is typically not directly related to the requirements except when a key chunk of business logic is encapsulated within the class or method in question. These tests are written by developers for their own use; they help developers describe what "done looks like" by summarizing the behavior of the unit in the form of tests. ~ xUnit Patterns: Refactoring Test Code, Chapter 5
 
 # Why Unit Test?
 
 Unit tests verify functionality of a small subset of the system, such as an object or method.
 
-The benefits of applying writing unit tests first:
+The benefits of applying unit tests and writing tests first:
 
 * Provide information quickly and enable fast troubleshooting
 * Provide a safety net enabling the programmers to refactor frequently. This keeps the code at a reasonable standard of maintainability and delivers the best value for the time invested. Technical debt is kept as low as possible.
 * Help the team to focus on the story that’s being delivered and to take the simplest approach that will work. (I think this is very true of TDD)
-* Help programmers understand exactly what the code needs to do and provide guidance in the right system design.
+* Help programmers understand exactly what the code needs to do and provide guidance in the right system design. (Test as specification)
+* Help programmers describe what "done looks like" by summarizing the behavior of the unit in the form of tests. (Test as specification)
+* Help answer the question "What should be the result if..." easily and confidently.
 * Writing unit tests and writing code with those tests in mind means programmers are always consciously making code testable.
+* Localize defects - customer tests confirm issues exist; unit tests reveal why/where bug exists (Though I'm not sure how this helps developer because unit tests are supposed to be run before customer tests and if it failed, customer tests are not supposed to be run).
+* Provide capability to verify the software's behavior in the "impossible" circumstances that cannot be induced when doing traditional customer testing of the entire application as a black box.
 
-Example of Unit Tests
+# Example of Unit Tests
 
 Full quote from Chapter 7
 
@@ -37,4 +45,7 @@ Full quote from Chapter 7
 
 # What To Test If You're A Programmer
 
-TBD
+![Kinds of Tests as Classified by Agile Testing: A Practical Guide for Testers and Agile Teams](/assets/goal-of-unit-test-what-do-programmers-test/kinds-of-tests-agile-book.png)
+![Kinds of Tests as Classified by xUnit Patterns: Refactoring Test Code](/assets/goal-of-unit-test-what-do-programmers-test/kinds-of-tests-xunit-book.png)
+
+Although the principle is that "everyone is responsible", programmers are directly in charge of Technology and Development facing tests: Unit and Component tests. More advanced testings that programmer may be directly involved is a kind of product criticizing test - Property tests ("Ility" tests).
