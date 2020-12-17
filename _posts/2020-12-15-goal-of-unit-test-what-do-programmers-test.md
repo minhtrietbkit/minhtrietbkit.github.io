@@ -27,9 +27,7 @@ The benefits of applying unit tests and writing tests first:
 * Localize defects - customer tests confirm issues exist; unit tests reveal why/where bug exists (Though I'm not sure how this helps developer because unit tests are supposed to be run before customer tests and if it failed, customer tests are not supposed to be run).
 * Provide capability to verify the software's behavior in the "impossible" circumstances that cannot be induced when doing traditional customer testing of the entire application as a black box.
 
-# Example of Unit Tests
-
-Full quote from Chapter 7
+# Example of Unit Test
 
 > WHERE DO TECHNOLOGY-FACING TESTS STOP?
 > 
@@ -41,7 +39,7 @@ Full quote from Chapter 7
 > 
 > The business-facing tests for this story would define more details for the business rules, the presentation in the user interface, and error handling. They would verify that payment details, such as the principal and interest applied, display correctly in the user interface. They would test validations for each field on the user interface, and specify error handling for situations such as insufficient balance or ineligibility. They could test a scenario where an administrator processes two loan payments on the same day, which might be harder to simulate at the unit level.
 > 
-> The business-facing tests cover more complex user scenarios and verify that the end user will have a good experience. Push tests to lower levels whenever possible; if you identify a test case that can be automated at the unit level, that’s almost always a better return on investment.
+> The business-facing tests cover more complex user scenarios and verify that the end user will have a good experience. Push tests to lower levels whenever possible; if you identify a test case that can be automated at the unit level, that’s almost always a better return on investment. ~ Agile Testing: A Practical Guide for Testers and Agile Teams, Chapter 7
 
 # What To Test If You're A Programmer
 
